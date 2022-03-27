@@ -1,0 +1,5 @@
+kafka:
+  topic: abacusdynamics1
+  bootstrap-servers: localhost:9092
+  group-id: abacusdynamicsGrp1
+

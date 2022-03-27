@@ -1,0 +1,4 @@
+kafka:
+  topic: abacusdynamics-dev
+  bootstrap-servers: localhost:9092
+  group-id: abacusdynamics-dev-Grp
