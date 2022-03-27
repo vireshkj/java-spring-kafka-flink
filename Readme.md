@@ -45,7 +45,11 @@ Check application logs to verify you got the messages.
 Here is sample:
 
 ```
-TBD
+Message received:'ConsumerRecord(topic = abacusdynamics-dev, partition = 0, leaderEpoch = 0, offset = 0, CreateTime = 1648355868589, serialized key size = -1, serialized value size = 30, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = this is my first kafka message)'
+
+Message received:'ConsumerRecord(topic = abacusdynamics-dev, partition = 0, leaderEpoch = 0, offset = 1, CreateTime = 1648355868603, serialized key size = -1, serialized value size = 12, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = hello world!)'
+
+Message received:'ConsumerRecord(topic = abacusdynamics-dev, partition = 0, leaderEpoch = 0, offset = 2, CreateTime = 1648355870189, serialized key size = -1, serialized value size = 51, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = this is my third kafka message. I’m on a roll :-D)'
 ```
 
 Stop springboot application.
